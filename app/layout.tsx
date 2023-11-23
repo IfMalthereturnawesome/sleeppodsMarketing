@@ -1,12 +1,20 @@
 import './css/style.css'
 
-import { Inter } from 'next/font/google'
+import { Inter, Poppins } from 'next/font/google'
+import { CSPostHogProvider } from './providers'
 
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
   display: 'swap'
 })
+
+const poppins = Poppins({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+  display: 'swap'
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -20,11 +28,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-inter antialiased bg-slate-900 text-slate-100 tracking-tight`}>
+    <CSPostHogProvider>
+      <body className={`${inter.variable} ${poppins.variable} font-poppins antialiased bg-cyan-1 text-slate-100 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
         </div>
       </body>
+    </CSPostHogProvider>
     </html>
   )
 }
