@@ -9,7 +9,7 @@ import { useFeatureFlagEnabled } from 'posthog-js/react'
 export default function Hero() {
   const flagEnabled = useFeatureFlagEnabled('hero')
 
-  if (flagEnabled) {
+
     return (
         <section>
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -62,10 +62,5 @@ export default function Hero() {
         </section>
     )
 
-
-
-  } else {
-
-  }
 
 }
