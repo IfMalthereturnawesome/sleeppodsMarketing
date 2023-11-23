@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const { createPlugin } = require("windy-radix-palette");
+
+const colors = createPlugin();
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
@@ -9,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
+        'poppins': ['var(--font-poppins)', 'sans-serif'],
       },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1.5' }],
@@ -44,5 +48,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+    colors.plugin
   ],
 };
