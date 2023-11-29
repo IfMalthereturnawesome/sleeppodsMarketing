@@ -32,7 +32,7 @@ export default function Hero() {
 
                 </div>
                 <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4" data-aos="fade-down">SleepPods&trade; </h1>
-                <span className={"h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4"}>A New Era of Sleep </span>
+                <h2 className={"h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4"} data-aos="fade-up">A New Era of Sleep </h2>
                 <p className="mb-8 mt-4 text-[#e7ecef] mx-auto text-md xs:text-2xl large:text-[1.33rem] 2xl:text-[1.37rem] xxlarge:text-[1.4rem] 3xl:text-2xl font-semibold font-sans !leading-normal tracking-wide text-center" data-aos="fade-down" data-aos-delay="200">Experience the future of sleep with PPG-powered earplugs, detecting deep sleep and soothing you with pink noise for ultimate rest and rejuvenation.</p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
                   <div>
