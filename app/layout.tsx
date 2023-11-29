@@ -1,8 +1,9 @@
 import './css/style.css'
 
 import { Inter, Poppins } from 'next/font/google'
-import { ReactNode, Suspense } from 'react';
+import {  Suspense } from 'react';
 import { PHProvider, PostHogPageview } from './providers';
+
 
 const inter = Inter({
   subsets: ['latin'],
@@ -28,18 +29,22 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+
+    <html lang="en"  className='dark'>
     <Suspense>
       <PostHogPageview />
     </Suspense>
     <PHProvider>
       <body className={`${inter.variable} ${poppins.variable} font-poppins antialiased bg-[#0F1729] text-slate-100 tracking-tight`}>
+
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
         </div>
+
       </body>
     </PHProvider>
 
     </html>
+
   )
 }

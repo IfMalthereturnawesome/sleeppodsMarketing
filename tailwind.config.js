@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 
 const { createPlugin } = require("windy-radix-palette");
@@ -8,6 +9,7 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
 
   theme: {
@@ -48,10 +50,15 @@ module.exports = {
       }
     },
   },
+
   plugins: [
+
+
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     colors.plugin, require("@tailwindcss/typography"),
+
+
   ],
   presets: [require("windy-radix-typography").preset],
 };
