@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-const { createPlugin } = require("windy-radix-palette");
 
+const { createPlugin } = require("windy-radix-palette");
 const colors = createPlugin();
+
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+
   theme: {
     extend: {
       fontFamily: {
@@ -48,6 +50,8 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
-    colors.plugin
+    require('@tailwindcss/typography'),
+    colors.plugin, require("@tailwindcss/typography"),
   ],
+  presets: [require("windy-radix-typography").preset],
 };

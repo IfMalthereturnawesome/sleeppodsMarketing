@@ -21,7 +21,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swiper": "^8.4.7",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "windy-radix-typography": "^1.0.0-beta.0"
   },
   "devDependencies": {
     "@radix-ui/colors": "^3.0.0",

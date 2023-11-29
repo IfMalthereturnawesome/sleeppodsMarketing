@@ -33,7 +33,7 @@ export default function RootLayout({
       <PostHogPageview />
     </Suspense>
     <PHProvider>
-      <body className={`${inter.variable} ${poppins.variable} font-poppins antialiased bg-cyan-1 text-slate-100 tracking-tight`}>
+      <body className={`${inter.variable} ${poppins.variable} font-poppins antialiased bg-[#0F1729] text-slate-100 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
         </div>
