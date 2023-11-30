@@ -1,3 +1,4 @@
+const { blackA, violet } = require('@radix-ui/colors');
 
 /** @type {import('tailwindcss').Config} */
 
@@ -14,6 +15,10 @@ module.exports = {
 
   theme: {
     extend: {
+      colors: {
+        ...blackA,
+        ...violet,
+      },
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
         'poppins': ['var(--font-poppins)', 'sans-serif'],
