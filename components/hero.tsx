@@ -4,6 +4,7 @@ import Image from "next/image";
 import Particles from "./particles";
 import Illustration from "@/public/images/glow-bottom.svg";
 import { useFeatureFlagEnabled } from "posthog-js/react";
+import EmailSignupForm from "@/components/elements/ContactForm";
 
 export default function Hero() {
   const flagEnabled = useFeatureFlagEnabled("hero");
@@ -76,14 +77,7 @@ export default function Hero() {
               data-aos="fade-down"
               data-aos-delay="400"
             >
-              <div>
-                <a
-                  className="btn inline-block text-lg font-semibold py-3 px-6 rounded-lg shadow-lg bg-black text-white hover:bg-gray-800 transition duration-300 ease-in-out transform hover:-translate-y-1"
-                  href="#preorder"
-                >
-                  Pre-Order Now <span className="ml-2">🌟</span>
-                </a>
-              </div>
+              <EmailSignupForm />
             </div>
           </div>
         </div>
