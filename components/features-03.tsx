@@ -38,12 +38,11 @@ export default function Features03() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              More than a login box
+              Sleep Assistant in Your Pocket
             </h2>
             <p className="text-lg text-slate-400">
-              There are many variations available, but the majority have
-              suffered alteration in some form, by injected humour, or
-              randomised words which don't look even slightly believable.
+              Paired with an intuitive mobile application, our solution provides
+              you with in-depth insights into your sleep patterns.
             </p>
           </div>
 
