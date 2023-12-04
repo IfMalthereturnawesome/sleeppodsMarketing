@@ -2,7 +2,7 @@ import Image from "next/image";
 import Particles from "./particles";
 import Highlighter, { HighlighterItem } from "./highlighter";
 
-import FeatureImg01 from "@/public/images/feature-image-01.png";
+import FeatureImg01 from "@/public/images/feature-image-01.svg";
 import FeatureImg02 from "@/public/images/feature-image-02.png";
 import FeatureImg03 from "@/public/images/feature-image-03.png";
 
@@ -23,7 +23,7 @@ export default function Features02() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              Faster. Smarter.
+              Scientifically Backed Technology
             </h2>
             <p className="text-lg text-slate-400">
               There are many variations available, but the majority have
@@ -115,13 +115,11 @@ export default function Features02() {
                         <div className="mb-5">
                           <div>
                             <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">
-                              Optimized for security
+                              Groundbreaking in-ear EEG
                             </h3>
                             <p className="text-slate-400">
-                              Optimize for user experience and privacy. Use
-                              social login integrations, lower user friction,
-                              incorporate rich user profiling, and facilitate
-                              more transactions.
+                              Gain trustworthy data and improvements based on
+                              the latest sleep research.
                             </p>
                           </div>
                         </div>
@@ -140,12 +138,12 @@ export default function Features02() {
                         </div>
                       </div>
                       {/* Image */}
-                      <div className="relative w-full h-64 md:h-auto overflow-hidden">
+                      <div className="relative w-full h-64 lg:h-96 lg:justify-center lg:flex lg:items-center md:h-auto overflow-hidden">
                         <Image
-                          className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:relative md:left-0{md}transla{}-x-0"
+                          className="absolute bottom-0  left-1/2 -translate-x-1/2 mx-auto max-w-none md:relative md:left-0{md}transla{}-x-0"
                           src={FeatureImg01}
-                          width="504"
-                          height="400"
+                          width="304"
+                          height="200"
                           alt="Feature 01"
                         />
                       </div>
