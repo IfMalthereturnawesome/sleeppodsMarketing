@@ -176,9 +176,8 @@ export default function TestimonialsCarousel() {
                         <div className="font-bold text-lg mb-1">
                           Identifying Sleep Disruptions
                         </div>
-                        <div className="text-slate-400 mb-3">
-                          Gain insights into what interrupts your sleep, whether
-                          it's environmental factors or personal habits
+                        <div className="text-slate-400 mb-3 ">
+                          Gain insights into what interrupts your sleep
                         </div>
                       </div>
                       <div className="text-right">
@@ -351,8 +350,7 @@ export default function TestimonialsCarousel() {
                           Personalized Sleep Scores
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Receive a daily sleep score based on your sleep data,
-                          helping you understand your sleep.
+                          Receive a daily sleep score based on your sleep data
                         </div>
                       </div>
                       <div className="text-right">
