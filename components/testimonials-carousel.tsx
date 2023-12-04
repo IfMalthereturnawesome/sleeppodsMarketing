@@ -53,16 +53,16 @@ export default function TestimonialsCarousel() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <div>
               <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">
-                The security first platform
+                The sleep first platform
               </div>
             </div>
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
               Spot issues faster
             </h2>
             <p className="text-lg text-slate-400">
-              All the lorem ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the first true
-              generator on the Internet.
+              Dive deep into your sleep health with our comprehensive analytics.
+              Understand sleep cycles, disruptions, and quality at a glance,
+              enabling you to make informed decisions for better sleep
             </p>
           </div>
 
@@ -91,20 +91,29 @@ export default function TestimonialsCarousel() {
                       <div className="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]" />
                     </div>
                     <div className="flex flex-col p-6 h-full">
-                      <Image
-                        className="mb-3"
-                        src={CarouselImg01}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 256 256"
                         width={56}
                         height={56}
-                        alt="Icon 01"
-                      />
+                      >
+                        <rect width="256" height="256" fill="none" />
+                        <path
+                          d="M108.11,28.11A96.09,96.09,0,0,0,227.89,147.89,96,96,0,1,1,108.11,28.11Z"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                      </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Anonymous User
+                          Understanding Your Sleep Cycles
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Incorporate rich user profiling, and facilitate more
-                          transactions.
+                          Explore the different stages of sleep – from light to
+                          deep and REM sleep
                         </div>
                       </div>
                       <div className="text-right">
@@ -137,20 +146,39 @@ export default function TestimonialsCarousel() {
                       <div className="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]" />
                     </div>
                     <div className="flex flex-col p-6 h-full">
-                      <Image
-                        className="mb-3"
-                        src={CarouselImg02}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 256 256"
                         width={56}
                         height={56}
-                        alt="Icon 01"
-                      />
+                      >
+                        <rect width="256" height="256" fill="none" />
+                        <path
+                          d="M128,56C48,56,16,128,16,128s32,72,112,72,112-72,112-72S208,56,128,56Z"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <circle
+                          cx="128"
+                          cy="128"
+                          r="32"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                      </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Bot Detection
+                          Identifying Sleep Disruptions
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Incorporate rich user profiling, and facilitate more
-                          transactions.
+                          Gain insights into what interrupts your sleep, whether
+                          it's environmental factors or personal habits
                         </div>
                       </div>
                       <div className="text-right">
@@ -183,13 +211,66 @@ export default function TestimonialsCarousel() {
                       <div className="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]" />
                     </div>
                     <div className="flex flex-col p-6 h-full">
-                      <Image
-                        className="mb-3"
-                        src={CarouselImg03}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 256 256"
                         width={56}
                         height={56}
-                        alt="Icon 01"
-                      />
+                      >
+                        <rect width="256" height="256" fill="none" />
+                        <line
+                          x1="149.09"
+                          y1="73.3"
+                          x2="90.91"
+                          y2="110.7"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <line
+                          x1="90.91"
+                          y1="145.3"
+                          x2="149.09"
+                          y2="182.7"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <circle
+                          cx="64"
+                          cy="128"
+                          r="32"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <circle
+                          cx="176"
+                          cy="200"
+                          r="32"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <circle
+                          cx="176"
+                          cy="56"
+                          r="32"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                      </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
                           Social integrations
@@ -229,20 +310,49 @@ export default function TestimonialsCarousel() {
                       <div className="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]" />
                     </div>
                     <div className="flex flex-col p-6 h-full">
-                      <Image
-                        className="mb-3"
-                        src={CarouselImg04}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 256 256"
                         width={56}
                         height={56}
-                        alt="Icon 01"
-                      />
+                      >
+                        <rect width="256" height="256" fill="none" />
+                        <circle
+                          cx="128"
+                          cy="128"
+                          r="96"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <circle
+                          cx="128"
+                          cy="120"
+                          r="40"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <path
+                          d="M63.8,199.37a72,72,0,0,1,128.4,0"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                      </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Progressive Profiling
+                          Personalized Sleep Scores
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Incorporate rich user profiling, and facilitate more
-                          transactions.
+                          Receive a daily sleep score based on your sleep data,
+                          helping you understand your sleep.
                         </div>
                       </div>
                       <div className="text-right">
@@ -275,20 +385,41 @@ export default function TestimonialsCarousel() {
                       <div className="absolute inset-0 translate-z-0 rounded-full bg-slate-800 group-[.swiper-slide-active]/slide:bg-purple-500 transition-colors duration-500 ease-in-out blur-[60px]" />
                     </div>
                     <div className="flex flex-col p-6 h-full">
-                      <Image
-                        className="mb-3"
-                        src={CarouselImg05}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 256 256"
                         width={56}
                         height={56}
-                        alt="Icon 05"
-                      />
+                      >
+                        <rect width="256" height="256" fill="none" />
+                        <rect
+                          x="40"
+                          y="88"
+                          width="176"
+                          height="128"
+                          rx="8"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                        <path
+                          d="M88,88V56a40,40,0,0,1,80,0V88"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        />
+                      </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
                           Secure Access
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Incorporate rich user profiling, and facilitate more
-                          transactions.
+                          Strong encryption and privacy measures to protect your
+                          health data.
                         </div>
                       </div>
                       <div className="text-right">
