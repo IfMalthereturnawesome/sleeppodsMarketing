@@ -68,7 +68,7 @@ export default function Hero() {
               data-aos="fade-down"
               data-aos-delay="200"
             >
-              Experience the future of sleep with PPG-powered earplugs,
+              Experience the future of sleep with EEG-powered earplugs,
               detecting deep sleep and soothing you with pink noise for ultimate
               rest and rejuvenation.
             </p>
