@@ -5,11 +5,13 @@ import * as Form from '@radix-ui/react-form';
 import * as Checkbox from '@radix-ui/react-checkbox';
 import { CheckIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 function EmailSignupForm() {
     const [state, setState] = useState<"idle" | "loading" | "success">("idle");
     const [agreeToTerms, setAgreeToTerms] = useState(false);
     const formRef = useRef<HTMLFormElement>(null);
+    const router = useRouter();
 
     async function handleOnSubmit(event) {
         event.preventDefault();
@@ -21,7 +23,7 @@ function EmailSignupForm() {
 
         const formData = new FormData(formRef.current);
         const email = formData.get('email');
-
+        if (typeof email === 'string') {
         setState('loading');
 
         // Replace with your actual API endpoint
@@ -35,8 +37,14 @@ function EmailSignupForm() {
 
         if (response.ok) {
             setState('success');
+            router.push(`/?success-email=${encodeURIComponent(email)}`);
         } else {
             alert('There was a problem with your submission.');
+            setState('idle');
+        }
+
+        } else {
+            alert('Invalid email address.');
             setState('idle');
         }
     }
@@ -98,6 +106,7 @@ function EmailSignupForm() {
                     <Form.Control asChild>
                         <input
                             type="email"
+                            id={"email"}
                             className="w-full px-6 py-4 text-lg font-normal rounded-r-none rounded-lg shadow-lg bg-black/80 text-white hover:bg-black/50 transition duration-300 ease-in-out"
                             placeholder="Enter your best email"
                             required

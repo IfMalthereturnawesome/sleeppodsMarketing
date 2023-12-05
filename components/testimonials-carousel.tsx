@@ -102,9 +102,9 @@ export default function TestimonialsCarousel() {
                           d="M108.11,28.11A96.09,96.09,0,0,0,227.89,147.89,96,96,0,1,1,108.11,28.11Z"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                       </svg>
                       <div className="grow">
@@ -157,9 +157,9 @@ export default function TestimonialsCarousel() {
                           d="M128,56C48,56,16,128,16,128s32,72,112,72,112-72,112-72S208,56,128,56Z"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <circle
                           cx="128"
@@ -167,9 +167,9 @@ export default function TestimonialsCarousel() {
                           r="32"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                       </svg>
                       <div className="grow">
@@ -224,9 +224,9 @@ export default function TestimonialsCarousel() {
                           y2="110.7"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <line
                           x1="90.91"
@@ -235,9 +235,9 @@ export default function TestimonialsCarousel() {
                           y2="182.7"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <circle
                           cx="64"
@@ -245,9 +245,9 @@ export default function TestimonialsCarousel() {
                           r="32"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <circle
                           cx="176"
@@ -255,9 +255,9 @@ export default function TestimonialsCarousel() {
                           r="32"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <circle
                           cx="176"
@@ -265,9 +265,9 @@ export default function TestimonialsCarousel() {
                           r="32"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                       </svg>
                       <div className="grow">
@@ -322,9 +322,9 @@ export default function TestimonialsCarousel() {
                           r="96"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <circle
                           cx="128"
@@ -332,17 +332,17 @@ export default function TestimonialsCarousel() {
                           r="40"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <path
                           d="M63.8,199.37a72,72,0,0,1,128.4,0"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                       </svg>
                       <div className="grow">
@@ -398,17 +398,17 @@ export default function TestimonialsCarousel() {
                           rx="8"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                         <path
                           d="M88,88V56a40,40,0,0,1,80,0V88"
                           fill="none"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="24"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="24"
                         />
                       </svg>
                       <div className="grow">

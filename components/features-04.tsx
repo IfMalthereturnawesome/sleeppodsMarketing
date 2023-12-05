@@ -66,9 +66,9 @@ export default function Features04() {
                         d="M24,128c104-221.7,104,221.7,208,0"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -96,9 +96,9 @@ export default function Features04() {
                         r="88"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="56"
@@ -107,9 +107,9 @@ export default function Features04() {
                         y2="56"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="200"
@@ -118,17 +118,17 @@ export default function Features04() {
                         y2="56"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <polyline
                         points="128 80 128 128 176 128"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -156,9 +156,9 @@ export default function Features04() {
                         r="96"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <circle
                         cx="128"
@@ -166,17 +166,17 @@ export default function Features04() {
                         r="40"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <path
                         d="M63.8,199.37a72,72,0,0,1,128.4,0"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -215,17 +215,17 @@ export default function Features04() {
                         y2="224"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <path
                         d="M146.34,189.66a8,8,0,0,1-5.65,2.34H64V115.31a8,8,0,0,1,2.34-5.65L136.4,40.4a56,56,0,0,1,79.2,79.2Z"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="112"
@@ -234,9 +234,9 @@ export default function Features04() {
                         y2="144"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="136"
@@ -245,9 +245,9 @@ export default function Features04() {
                         y2="120"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -273,9 +273,9 @@ export default function Features04() {
                         d="M92.69,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65L165.66,34.34a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31L98.34,213.66A8,8,0,0,1,92.69,216Z"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="136"
@@ -284,9 +284,9 @@ export default function Features04() {
                         y2="120"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="104"
@@ -295,17 +295,17 @@ export default function Features04() {
                         y2="152"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <polyline
                         points="164 200 204 160 192 120"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -334,9 +334,9 @@ export default function Features04() {
                         y2="72.62"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="152"
@@ -345,9 +345,9 @@ export default function Features04() {
                         y2="160"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="179.64"
@@ -356,9 +356,9 @@ export default function Features04() {
                         y2="160"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="151.23"
@@ -367,9 +367,9 @@ export default function Features04() {
                         y2="208"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="24"
@@ -378,9 +378,9 @@ export default function Features04() {
                         y2="160"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="52.73"
@@ -389,9 +389,9 @@ export default function Features04() {
                         y2="208"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -430,9 +430,9 @@ export default function Features04() {
                         y2="176"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="192"
@@ -441,9 +441,9 @@ export default function Features04() {
                         y2="152"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="80"
@@ -452,9 +452,9 @@ export default function Features04() {
                         y2="88"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="56"
@@ -463,9 +463,9 @@ export default function Features04() {
                         y2="64"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="168"
@@ -474,9 +474,9 @@ export default function Features04() {
                         y2="216"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="152"
@@ -485,9 +485,9 @@ export default function Features04() {
                         y2="200"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <line
                         x1="144"
@@ -496,9 +496,9 @@ export default function Features04() {
                         y2="112"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <rect
                         x="21.49"
@@ -509,9 +509,9 @@ export default function Features04() {
                         transform="translate(-53.02 128) rotate(-45)"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -540,25 +540,25 @@ export default function Features04() {
                         ry="48"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <path
                         d="M40,80v48c0,26.51,39.4,48,88,48s88-21.49,88-48V80"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <path
                         d="M40,128v48c0,26.51,39.4,48,88,48s88-21.49,88-48V128"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
@@ -586,33 +586,33 @@ export default function Features04() {
                         r="52"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <path
                         d="M152.69,59.7A52,52,0,1,1,172,160"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <path
                         d="M13,196a88,88,0,0,1,142,0"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                       <path
                         d="M172,160a87.86,87.86,0,0,1,71,36"
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="24"
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">

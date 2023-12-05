@@ -246,9 +246,9 @@ export default function Features02() {
                     d="M128,216S24,160,24,94A54,54,0,0,1,78,40c22.59,0,41.94,12.31,50,32,8.06-19.69,27.41-32,50-32a54,54,0,0,1,54,54C232,160,128,216,128,216Z"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                 </svg>
                 <h4 className="font-medium text-slate-50">EEG</h4>
@@ -275,49 +275,49 @@ export default function Features02() {
                     y2="216"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M160,216c-8.07,9.77-18.34,16-32,16a44,44,0,0,1-44-44c0-41.49-36-28-36-84A79.63,79.63,0,0,1,63.34,56.88"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M91.43,87.77A39.76,39.76,0,0,0,88,104"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M169.07,173.18A16,16,0,0,1,144,160a33.16,33.16,0,0,1,2.2-12"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M94.27,31.44A80,80,0,0,1,208,104"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M167.14,111.59A33.15,33.15,0,0,0,168,104a40,40,0,0,0-40-40c-1.33,0-2.65.07-4,.19"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                 </svg>
                 <h4 className="font-medium text-slate-50">Sound Blocking</h4>
@@ -340,9 +340,9 @@ export default function Features02() {
                     points="24 128 76 56 180 200 232 128"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                 </svg>
                 <h4 className="font-medium text-slate-50">Pink Noise</h4>
@@ -366,9 +366,9 @@ export default function Features02() {
                     d="M128,56C48,56,16,128,16,128s32,72,112,72,112-72,112-72S208,56,128,56Z"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <circle
                     cx="128"
@@ -376,9 +376,9 @@ export default function Features02() {
                     r="32"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                 </svg>
                 <h4 className="font-medium text-slate-50">Sleep Recognition</h4>
@@ -404,25 +404,25 @@ export default function Features02() {
                     ry="48"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M40,80v48c0,26.51,39.4,48,88,48s88-21.49,88-48V80"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M40,128v48c0,26.51,39.4,48,88,48s88-21.49,88-48V128"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                 </svg>
                 <h4 className="font-medium text-slate-50">Data Collection </h4>
@@ -447,9 +447,9 @@ export default function Features02() {
                     r="28"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <circle
                     cx="80"
@@ -457,9 +457,9 @@ export default function Features02() {
                     r="28"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <circle
                     cx="176"
@@ -467,9 +467,9 @@ export default function Features02() {
                     r="28"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <circle
                     cx="176"
@@ -477,25 +477,25 @@ export default function Features02() {
                     r="28"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M32,224a60,60,0,0,1,96,0,60,60,0,0,1,96,0"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                   <path
                     d="M32,112a60,60,0,0,1,96,0h0a60,60,0,0,1,96,0"
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="24"
                   />
                 </svg>
                 <h4 className="font-medium text-slate-50">Community</h4>
