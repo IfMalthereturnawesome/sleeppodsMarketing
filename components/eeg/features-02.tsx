@@ -7,10 +7,9 @@ import FeatureImg02 from "@/public/images/feature-image-02.png";
 import FeatureImg03 from "@/public/images/feature-image-03.png";
 
 export default function Features02() {
-
   const scrollToTop = () => {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <section className="relative">
@@ -24,7 +23,7 @@ export default function Features02() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-16 md:pt-32">
+        <div className="pt-16 md:pt-26">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">

@@ -18,6 +18,7 @@ module.exports = {
         poppins: ["var(--font-poppins)", "sans-serif"],
       },
       fontSize: {
+        "2xs": ["0.65rem", { lineHeight: "1.5" }],
         xs: ["0.75rem", { lineHeight: "1.5" }],
         sm: ["0.875rem", { lineHeight: "1.5715" }],
         base: ["1rem", { lineHeight: "1.5", letterSpacing: "-0.017em" }],
