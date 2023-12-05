@@ -3,6 +3,8 @@ import "./css/style.css";
 import {Inter, Poppins} from "next/font/google";
 import {Suspense} from "react";
 import {PHProvider, PostHogPageview} from "./providers";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
+import CookieBanner from "@/components/analytics/CookieBanner";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -33,6 +35,8 @@ function Fallback() {
     )
 }
 
+const GTAG = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
+
 export default function RootLayout({
                                        children,
                                    }: {
@@ -50,6 +54,10 @@ export default function RootLayout({
             <div className="flex flex-col min-h-screen overflow-hidden">
                 {children}
             </div>
+            <Suspense fallback={<Fallback/>}>
+                <GoogleAnalytics GA_MEASUREMENT_ID={GTAG}/>
+                <CookieBanner/>
+            </Suspense>
             </body>
         </PHProvider>
         </html>
