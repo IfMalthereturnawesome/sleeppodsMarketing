@@ -53,7 +53,7 @@ export default function Hero() {
               className="text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-800/60 pb-4"
               data-aos="fade-down"
             >
-              SleepPods&trade;{" "}
+              SleepPods&trade;
             </h1>
             <h2
               className={
