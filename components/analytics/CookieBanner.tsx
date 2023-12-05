@@ -82,7 +82,7 @@ export default function CookieBanner() {
   return (
     <>
       <div
-        className={`fixed z-50 left-0  lg:bottom-[30vh] lg:left-10 lg:bottom-5 bg-black/80 backdrop-blur-lg dark:bg-gray-900 rounded-lg 
+        className={`fixed z-50 left-0  bottom-[0vh] lg:left-10 lg:bottom-5 bg-black/80 backdrop-blur-lg dark:bg-gray-900 rounded-lg 
         shadow-lg   sm:max-w-md lg:max-w-lg xl:max-w-xl  mx-auto border border-white/20 mb-2
         ${
           cookieConsent !== null ? "hidden" : "flex"
