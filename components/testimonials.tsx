@@ -23,11 +23,11 @@ export default function Testimonials() {
 
   const items: Item[] = [
     {
-      img: TestimonialImg01,
+      img: TestimonialImg03,
       quote:
         "As a co-founder of SleepPods, I'm thrilled with the impact our product has had. Every night, I experience first-hand the comfort and advanced technology that we've poured our hearts into. It's fulfilling to see our vision for better sleep come to life.",
-      name: "Anna J",
-      role: "Chief Technical Officer at SleepPods",
+      name: " Jeff Kahl",
+      role: "Co-Founder of SleepPods",
     },
     {
       img: TestimonialImg02,
@@ -37,11 +37,11 @@ export default function Testimonials() {
       role: "Lead Product Designer at SleepPods",
     },
     {
-      img: TestimonialImg03,
+      img: TestimonialImg01,
       quote:
-        "As a busy professional, I don't have a lot of time to devote to working out. But with this fitness program, I have seen amazing results in just a few short weeks. The workouts are efficient and effective.",
-      name: "Jeff Kahl",
-      role: "Appy Product Lead",
+        "Developing SleepPods has been a journey of innovation and passion. Using them personally, I'm proud of the precise sleep tracking and user-friendly design we've achieved. It's gratifying to know we're enhancing sleep for so many.",
+      name: "Anna J",
+      role: "Chief Technical Officer at SleepPods",
     },
   ];
 
