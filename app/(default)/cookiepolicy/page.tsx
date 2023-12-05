@@ -36,13 +36,13 @@ export default function CookiePolicy() {
                 <p>In compliance with GDPR and other privacy regulations, we ensure that your data is handled securely. Our analytics tools are configured to respect your privacy. We do not sell or share your data with third parties for advertising purposes.</p>
 
                 <h2>5. Your Rights</h2>
-                <p>You have the right to access, rectify, or erase any personal data we may have collected. You can also object to the processing of your data, request data portability, and withdraw consent at any time. For any concerns or requests, please contact us at info@sleeppods.io.</p>
+                <p>You have the right to access, rectify, or erase any personal data we may have collected. You can also object to the processing of your data, request data portability, and withdraw consent at any time. For any concerns or requests, please contact us at info@eightathletics.com</p>
 
                 <h2>6. Updates to this Policy</h2>
                 <p>We may update this Cookie Policy to reflect changes in our practices or for other operational, legal, or regulatory reasons. The updated version will be indicated by a revised date and will be effective upon posting. We encourage you to review this policy periodically.</p>
 
                 <h2>Contact Us</h2>
-                <p>If you have any questions about this Cookie Policy, please contact us at info@sleeppods.io.</p>
+                <p>If you have any questions about this Cookie Policy, please contact us at info@eightathletics.com</p>
             </article>
         </Container>
     );
