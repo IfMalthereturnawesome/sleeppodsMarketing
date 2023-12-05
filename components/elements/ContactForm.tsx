@@ -127,11 +127,11 @@ function EmailSignupForm() {
         <Form.Submit asChild>
           <button
             type="submit"
-            className="flex justify-center w-1/2 lg:text-lg text-xs font-semibold py-4  px-6 rounded-l-none rounded-lg shadow-lg bg-black text-white hover:bg-black/50 transition duration-300 ease-in-out"
+            className="flex justify-center w-1/2 lg:text-lg text-xs font-semibold py-4  lg:px-6 px-4 rounded-l-none rounded-lg shadow-lg bg-black text-white hover:bg-black/50 transition duration-300 ease-in-out"
             disabled={state === "loading"}
           >
             {state === "loading" ? "Processing..." : "Pre-Order Now"}{" "}
-            <span className="lg:ml-2 ml-0.5 ">🌟</span>
+            <span className="lg:ml-2 ml-0.5 hidden lg:block">🌟</span>
           </button>
         </Form.Submit>
       </div>
