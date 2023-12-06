@@ -352,8 +352,8 @@ export default function Features02() {
                 <h4 className="font-medium text-slate-50">Pink Noise</h4>
               </div>
               <p className="text-sm text-slate-400">
-                Pink noise is a sound containing frequencies with equal energy
-                per octave.
+                The pink noise enhances brain activity that’s associated with
+                deep phases of sleep.
               </p>
             </div>
             {/* Feature */}
