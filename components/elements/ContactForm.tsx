@@ -153,7 +153,7 @@ function EmailSignupForm() {
         <label htmlFor="terms-checkbox" className="text-sm ml-2 text-white">
           I agree to the{" "}
           <Link
-            href="/terms"
+            href="/disclaimer"
             className="text-blue-300 underline underline-offset-2 hover:underline"
           >
             Terms and Conditions

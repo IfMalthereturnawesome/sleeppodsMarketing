@@ -9,8 +9,8 @@ import CtaNoApp from "@/components/noapp/cta";
 
 export default function Features02NoApp() {
   const scrollToTop = () => {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <section className="relative">
       {/* Particles animation */}
@@ -23,7 +23,7 @@ export default function Features02NoApp() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-16 md:pt-32">
+        <div className="pt-16 md:pt-26">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
@@ -133,7 +133,7 @@ export default function Features02NoApp() {
                             onClick={scrollToTop}
                           >
                             <span className="relative inline-flex items-center">
-                               Pre-order now
+                              Pre-order now
                               <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                                 -&gt;
                               </span>
