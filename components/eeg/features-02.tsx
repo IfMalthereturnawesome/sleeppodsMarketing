@@ -30,9 +30,9 @@ export default function Features02() {
               Scientifically Backed Technology
             </h2>
             <p className="text-lg text-slate-400">
-              There are many variations available, but the majority have
-              suffered alteration in some form, by injected humour, or
-              randomised words which don't look even slightly believable.
+              Our in-ear EEG device utilizes advanced algorithms and
+              electroencephalography technology to ensure precise identification
+              of sleep stages
             </p>
           </div>
 

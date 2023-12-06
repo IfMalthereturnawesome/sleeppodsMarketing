@@ -2,7 +2,7 @@ import Image from "next/image";
 import Particles from "./particles";
 import Highlighter, { HighlighterItem } from "./highlighter";
 
-import FeatureImg01 from "@/public/images/feature-image-01.svg";
+import FeatureImg01 from "@/public/images/pgg-feature-image-01.svg";
 import FeatureImg02 from "@/public/images/feature-image-02.png";
 import FeatureImg03 from "@/public/images/feature-image-03.png";
 
@@ -29,9 +29,9 @@ export default function Features02PPG() {
               Scientifically Backed Technology
             </h2>
             <p className="text-lg text-slate-400">
-              There are many variations available, but the majority have
-              suffered alteration in some form, by injected humour, or
-              randomised words which don't look even slightly believable.
+              Our in-ear PPG device utilizes advanced algorithms and
+              photoplethysmogram technology to ensure precise identification of
+              sleep stages
             </p>
           </div>
 
@@ -118,7 +118,7 @@ export default function Features02PPG() {
                         <div className="mb-5">
                           <div>
                             <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">
-                              Groundbreaking in-ear EEG
+                              Groundbreaking in-ear PPG
                             </h3>
                             <p className="text-slate-400">
                               Gain trustworthy data and improvements based on
@@ -145,8 +145,8 @@ export default function Features02PPG() {
                         <Image
                           className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:relative md:left-0{md}transla{}-x-0"
                           src={FeatureImg01}
-                          width="304"
-                          height="200"
+                          width="404"
+                          height="300"
                           alt="Feature 01"
                         />
                       </div>
@@ -254,11 +254,11 @@ export default function Features02PPG() {
                     strokeWidth="24"
                   />
                 </svg>
-                <h4 className="font-medium text-slate-50">EEG</h4>
+                <h4 className="font-medium text-slate-50">PPG</h4>
               </div>
               <p className="text-sm text-slate-400">
-                Electroencephalography, is a technology that records the brain's
-                electrical activity.
+                Photoplethysmogram, a high precision light sensor used to detect
+                volume of blood flow.
               </p>
             </div>
             {/* Feature */}

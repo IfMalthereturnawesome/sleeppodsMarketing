@@ -76,7 +76,7 @@ export default function Features04() {
                     </h4>
                   </div>
                   <p className="text-sm text-slate-400">
-                    state-of-the-art EEG technology to provide comprehensive
+                    State-of-the-art EEG technology to provide comprehensive
                     monitoring of your sleep stages
                   </p>
                 </div>

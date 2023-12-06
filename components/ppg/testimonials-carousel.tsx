@@ -116,17 +116,6 @@ export default function TestimonialsCarouselPPG() {
                           deep and REM sleep
                         </div>
                       </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </HighlighterItem>
@@ -179,17 +168,6 @@ export default function TestimonialsCarouselPPG() {
                         <div className="text-slate-400 mb-3 ">
                           Gain insights into what interrupts your sleep
                         </div>
-                      </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -279,17 +257,6 @@ export default function TestimonialsCarouselPPG() {
                           transactions.
                         </div>
                       </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </HighlighterItem>
@@ -353,17 +320,6 @@ export default function TestimonialsCarouselPPG() {
                           Receive a daily sleep score based on your sleep data
                         </div>
                       </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </HighlighterItem>
@@ -419,17 +375,6 @@ export default function TestimonialsCarouselPPG() {
                           Strong encryption and privacy measures to protect your
                           health data.
                         </div>
-                      </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
                       </div>
                     </div>
                   </div>
