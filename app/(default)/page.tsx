@@ -1,6 +1,10 @@
-'use client';
-import {usePostHog, useFeatureFlagEnabled, useFeatureFlagVariantKey} from 'posthog-js/react'
-import {useEffect, useState} from "react";
+"use client";
+import {
+  usePostHog,
+  useFeatureFlagEnabled,
+  useFeatureFlagVariantKey,
+} from "posthog-js/react";
+import { useEffect, useState } from "react";
 
 // EEG
 import Hero from "@/components/eeg/hero";
@@ -35,67 +39,63 @@ import TestimonialsCarouselPPG from "@/components/ppg/testimonials-carousel";
 import Features04PPG from "@/components/ppg/features-04";
 import TestimonialsPPG from "@/components/ppg/testimonials";
 import CtaPPG from "@/components/ppg/cta";
-
+import posthog from "posthog-js";
 
 export default function Home() {
+  const landingPageVariant = useFeatureFlagVariantKey("landing_page");
+  const [content, setContent] = useState(null);
+  posthog.featureFlags.override({ landing_page: "ppg" });
 
-    const landingPageVariant = useFeatureFlagVariantKey('landing_page')
-    const [content, setContent] = useState(null);
+  useEffect(() => {
+    switch (landingPageVariant) {
+      case "ppg":
+        setContent(
+          <>
+            <HeroPPG />
+            <ClientsPPG />
+            <FeaturesPPG />
+            <Features02PPG />
+            <Features03PPG />
+            <TestimonialsCarouselPPG />
+            <Features04PPG />
+            <TestimonialsPPG />
+            <CtaPPG />
+          </>,
+        );
+        break;
+      case "noapp":
+        setContent(
+          <>
+            <HeroNoApp />
+            <ClientsNoApp />
+            <FeaturesNoApp />
+            <Features02NoApp />
+            <Features03NoApp />
+            <TestimonialsCarouselNoApp />
+            <Features04NoApp />
+            <TestimonialsNoApp />
+            <CtaNoApp />
+          </>,
+        );
+        break;
+      //     EEG is the default
+      case "control":
+      default:
+        setContent(
+          <>
+            <Hero />
+            <Clients />
+            <Features />
+            <Features02 />
+            <Features03 />
+            <TestimonialsCarousel />
+            <Features04 />
+            <Testimonials />
+            <Cta />
+          </>,
+        );
+    }
+  }, [landingPageVariant]);
 
-    useEffect(() => {
-        switch (landingPageVariant) {
-            case 'ppg':
-                setContent(
-                    <>
-                        <HeroPPG />
-                        <ClientsPPG />
-                        <FeaturesPPG />
-                        <Features02PPG />
-                        <Features03PPG />
-                        <TestimonialsCarouselPPG />
-                        <Features04PPG />
-                        <TestimonialsPPG />
-                        <CtaPPG />
-
-
-                    </>
-                );
-                break;
-            case 'noapp':
-                setContent(
-                    <>
-                        <HeroNoApp />
-                        <ClientsNoApp />
-                        <FeaturesNoApp />
-                        <Features02NoApp />
-                        <Features03NoApp />
-                        <TestimonialsCarouselNoApp />
-                        <Features04NoApp />
-                        <TestimonialsNoApp />
-                        <CtaNoApp />
-
-                    </>
-                );
-                break;
-            //     EEG is the default
-            case 'control':
-            default:
-                setContent(
-                    <>
-                        <Hero />
-                        <Clients />
-                        <Features />
-                        <Features02 />
-                        <Features03 />
-                        <TestimonialsCarousel />
-                        <Features04 />
-                        <Testimonials />
-                        <Cta />
-                    </>
-                );
-        }
-    }, [landingPageVariant]);
-
-    return content;
-
+  return content;
 }
