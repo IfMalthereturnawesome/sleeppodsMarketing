@@ -2,10 +2,9 @@ import Image from "next/image";
 import Particles from "./particles";
 import Highlighter, { HighlighterItem } from "./highlighter";
 
-import FeatureImg01 from "@/public/images/feature-image-01.svg";
-import FeatureImg02 from "@/public/images/feature-image-02.png";
-import FeatureImg03 from "@/public/images/feature-image-03.png";
-import CtaNoApp from "@/components/noapp/cta";
+import FeatureImg01 from "@/public/images/pgg-feature-image-01.svg";
+import FeatureImg02 from "@/public/images/feature-image-02NoApp.svg";
+import FeatureImg03 from "@/public/images/feature-image-03NoApp.svg";
 
 export default function Features02NoApp() {
   const scrollToTop = () => {
@@ -30,9 +29,9 @@ export default function Features02NoApp() {
               Scientifically Backed Technology
             </h2>
             <p className="text-lg text-slate-400">
-              There are many variations available, but the majority have
-              suffered alteration in some form, by injected humour, or
-              randomised words which don't look even slightly believable.
+              Our in-ear PPG device utilizes advanced algorithms and
+              photoplethysmogram technology to ensure precise identification of
+              sleep stages
             </p>
           </div>
 
@@ -119,11 +118,11 @@ export default function Features02NoApp() {
                         <div className="mb-5">
                           <div>
                             <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">
-                              Groundbreaking in-ear EEG
+                              Groundbreaking in-ear PPG
                             </h3>
                             <p className="text-slate-400">
-                              Gain trustworthy data and improvements based on
-                              the latest sleep research.
+                              Trustworthy data and improvements based on the
+                              latest sleep research.
                             </p>
                           </div>
                         </div>
@@ -146,8 +145,8 @@ export default function Features02NoApp() {
                         <Image
                           className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:relative md:left-0{md}transla{}-x-0"
                           src={FeatureImg01}
-                          width="304"
-                          height="200"
+                          width="404"
+                          height="300"
                           alt="Feature 01"
                         />
                       </div>
@@ -209,11 +208,11 @@ export default function Features02NoApp() {
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                         <div>
                           <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">
-                            A Community of Better Sleepers
+                            Automatic Sound Playback
                           </h3>
                           <p className="text-slate-400">
-                            Share experiences, tips, and successes with others
-                            on the same journey
+                            Experience Soothing Sounds Effortlessly, No App
+                            Required
                           </p>
                         </div>
                       </div>
@@ -255,11 +254,11 @@ export default function Features02NoApp() {
                     strokeWidth="24"
                   />
                 </svg>
-                <h4 className="font-medium text-slate-50">EEG</h4>
+                <h4 className="font-medium text-slate-50">PPG</h4>
               </div>
               <p className="text-sm text-slate-400">
-                Electroencephalography, is a technology that records the brain's
-                electrical activity.
+                Photoplethysmogram, a high precision light sensor used to detect
+                volume of blood flow.
               </p>
             </div>
             {/* Feature */}
@@ -352,8 +351,8 @@ export default function Features02NoApp() {
                 <h4 className="font-medium text-slate-50">Pink Noise</h4>
               </div>
               <p className="text-sm text-slate-400">
-                Pink noise is a sound containing frequencies with equal energy
-                per octave.
+                The pink noise enhances brain activity that’s associated with
+                deep phases of sleep.
               </p>
             </div>
             {/* Feature */}
@@ -432,81 +431,7 @@ export default function Features02NoApp() {
                 <h4 className="font-medium text-slate-50">Data Collection </h4>
               </div>
               <p className="text-sm text-slate-400">
-                Systematic gathering of sleep information
-              </p>
-            </div>
-            {/* Feature */}
-            <div>
-              <div className="flex items-center space-x-2 mb-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 256 256"
-                  width="20"
-                  height="20"
-                >
-                  <rect width="256" height="256" fill="none" />
-                  <circle
-                    cx="80"
-                    cy="172"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <circle
-                    cx="80"
-                    cy="60"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <circle
-                    cx="176"
-                    cy="172"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <circle
-                    cx="176"
-                    cy="60"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <path
-                    d="M32,224a60,60,0,0,1,96,0,60,60,0,0,1,96,0"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <path
-                    d="M32,112a60,60,0,0,1,96,0h0a60,60,0,0,1,96,0"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                </svg>
-                <h4 className="font-medium text-slate-50">Community</h4>
-              </div>
-              <p className="text-sm text-slate-400">
-                Join a community committed to better sleep, share experiences,
-                tips, and successes.
+                Machine learning algorithms to better your sleep.
               </p>
             </div>
           </div>

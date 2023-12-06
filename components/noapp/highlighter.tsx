@@ -9,7 +9,7 @@ type HighlighterProps = {
   refresh?: boolean;
 };
 
-export default function Highlighter({
+export default function HighlighterNoApp({
   children,
   className = "",
   refresh = false,

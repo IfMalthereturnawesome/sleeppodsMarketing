@@ -2,7 +2,6 @@ import Image from "next/image";
 import Highlighter, { HighlighterItem } from "./highlighter";
 
 import FeatureImg04 from "@/public/images/feature-image-04.png";
-import CtaNoApp from "@/components/noapp/cta";
 
 export default function Features03NoApp() {
   return (

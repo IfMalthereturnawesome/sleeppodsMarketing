@@ -57,7 +57,7 @@ export default function TestimonialsCarouselNoApp() {
               </div>
             </div>
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              Spot issues faster
+              Improve Your Sleep Quality
             </h2>
             <p className="text-lg text-slate-400">
               Dive deep into your sleep health with our comprehensive analytics.
@@ -109,23 +109,14 @@ export default function TestimonialsCarouselNoApp() {
                       </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Understanding Your Sleep Cycles
+                          Optimizing Your Sleep Environment{" "}
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Explore the different stages of sleep – from light to
-                          deep and REM sleep
+                          Explore ways to create the ideal sleeping atmosphere,
+                          covering aspects like lighting, temperature, noise
+                          control, and bedding. Understand how your environment
+                          impacts your ability to fall asleep.
                         </div>
-                      </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -174,22 +165,14 @@ export default function TestimonialsCarouselNoApp() {
                       </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Identifying Sleep Disruptions
+                          Establishing a Consistent Sleep Schedule{" "}
                         </div>
                         <div className="text-slate-400 mb-3 ">
-                          Gain insights into what interrupts your sleep
+                          The importance of maintaining a regular sleep-wake
+                          cycle. Provide tips on how to develop a consistent
+                          bedtime routine and the benefits it has on your
+                          circadian rhythm and overall sleep quality.
                         </div>
-                      </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -272,23 +255,14 @@ export default function TestimonialsCarouselNoApp() {
                       </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Social integrations
+                          Mindfulness and Relaxation Techniques for Better Sleep
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Incorporate rich user profiling, and facilitate more
-                          transactions.
+                          Various relaxation methods such as meditation, deep
+                          breathing exercises, and progressive muscle
+                          relaxation. Explain how these techniques can help
+                          reduce stress and anxiety, leading to improved sleep.
                         </div>
-                      </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -347,22 +321,15 @@ export default function TestimonialsCarouselNoApp() {
                       </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Personalized Sleep Scores
+                          Diet and Nutrition's Impact on Sleep
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Receive a daily sleep score based on your sleep data
+                          Investigate how diet and nutrition influence sleep
+                          quality. Address topics like the effects of caffeine
+                          and sugar, the benefits of certain nutrients and
+                          foods, and the ideal timing of meals relative to
+                          bedtime.{" "}
                         </div>
-                      </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -413,23 +380,15 @@ export default function TestimonialsCarouselNoApp() {
                       </svg>
                       <div className="grow">
                         <div className="font-bold text-lg mb-1">
-                          Secure Access
+                          The Role of Physical Activity in Enhancing Sleep
                         </div>
                         <div className="text-slate-400 mb-3">
-                          Strong encryption and privacy measures to protect your
-                          health data.
+                          Examine how different types and timings of physical
+                          activities can affect sleep. Discuss the benefits of
+                          regular exercise for sleep quality and offer
+                          guidelines for the best times to exercise to promote
+                          restful sleep.
                         </div>
-                      </div>
-                      <div className="text-right">
-                        <a
-                          className="text-sm font-medium text-slate-300 hover:text-white inline-flex items-center transition duration-150 ease-in-out group"
-                          href="#0"
-                        >
-                          Learn More{" "}
-                          <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                            -&gt;
-                          </span>
-                        </a>
                       </div>
                     </div>
                   </div>

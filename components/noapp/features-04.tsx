@@ -1,5 +1,3 @@
-import CtaNoApp from "@/components/noapp/cta";
-
 export default function Features04NoApp() {
   return (
     <section className="relative">
@@ -78,7 +76,7 @@ export default function Features04NoApp() {
                     </h4>
                   </div>
                   <p className="text-sm text-slate-400">
-                    state-of-the-art EEG technology to provide comprehensive
+                    State-of-the-art PGG technology to provide comprehensive
                     monitoring of your sleep stages
                   </p>
                 </div>
@@ -186,8 +184,8 @@ export default function Features04NoApp() {
                     </h4>
                   </div>
                   <p className="text-sm text-slate-400">
-                    Intelligent algorithms analyze your sleep data to provide
-                    personalized insights and recommendations
+                    Intelligent algorithms analyze your sleep data for a
+                    personalized sleep cycle.
                   </p>
                 </div>
               </div>
@@ -397,12 +395,11 @@ export default function Features04NoApp() {
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
-                      Easy-to-Use Companion App
+                      App free Companion
                     </h4>
                   </div>
                   <p className="text-sm text-slate-400">
-                    User-friendly app for effortless sleep tracking and data
-                    access.
+                    App free experience for an effortless sleep.
                   </p>
                 </div>
               </div>
@@ -521,8 +518,8 @@ export default function Features04NoApp() {
                     </h4>
                   </div>
                   <p className="text-sm text-slate-400">
-                    Tools like guided breathing and meditation to aid in
-                    quicker, more effective sleep initiation
+                    Tools like pink noise to aid in quicker and more effective
+                    sleep initiation.
                   </p>
                 </div>
                 {/* Feature */}
@@ -618,12 +615,12 @@ export default function Features04NoApp() {
                       />
                     </svg>
                     <h4 className="font-medium text-slate-50">
-                      Ongoing Support and Community
+                      First Class Support
                     </h4>
                   </div>
                   <p className="text-sm text-slate-400">
-                    Access to a supportive user community and continuous product
-                    support for a holistic sleep.
+                    We will provide you with the best support and guidance. We
+                    are here to help you.
                   </p>
                 </div>
               </div>

@@ -6,7 +6,7 @@ import Illustration from "@/public/images/glow-bottom.svg";
 import { useFeatureFlagEnabled } from "posthog-js/react";
 import EmailSignupForm from "@/components/elements/ContactForm";
 
-export default function Hero() {
+export default function HeroPPG() {
   const flagEnabled = useFeatureFlagEnabled("hero");
 
   return (

@@ -1,4 +1,8 @@
 export default function CtaNoApp() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -48,19 +52,19 @@ export default function CtaNoApp() {
               Take control of your sleep
             </h2>
             <p className="text-lg text-slate-400 mb-8">
-              Discover the Art of Perfect Sleep with Our Innovative EEG Sleep
+              Discover the Art of Perfect Sleep with Our Innovative PGG Sleep
               Tracker, Tailored to Unlock Your Best Night's Sleep
             </p>
             <div>
-              <a
+              <button
+                onClick={scrollToTop}
                 className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group"
-                href="#0"
               >
                 Get Started{" "}
                 <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                   -&gt;
                 </span>
-              </a>
+              </button>
             </div>
           </div>
         </div>
