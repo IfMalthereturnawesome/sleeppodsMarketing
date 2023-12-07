@@ -87,7 +87,7 @@ function EmailSignupForm() {
               data-aos-delay="200"
             >
               Thank you for your interest in SleepPods! We've received your
-              pre-order request. You're one step closer to experiencing
+              waiting list request. You're one step closer to experiencing
               revolutionary sleep technology.
             </p>
             <p className="text-slate-200 pt-4 text-xs">
@@ -130,7 +130,7 @@ function EmailSignupForm() {
             className="flex justify-center w-1/2 lg:text-lg text-xs font-semibold py-4  lg:px-6 px-4 rounded-l-none rounded-lg shadow-lg bg-black text-white hover:bg-black/50 transition duration-300 ease-in-out"
             disabled={state === "loading"}
           >
-            {state === "loading" ? "Processing..." : "Pre-Order Now"}{" "}
+            {state === "loading" ? "Processing..." : "Join Waitlist"}
             <span className="lg:ml-2 ml-0.5 hidden lg:block">🌟</span>
           </button>
         </Form.Submit>

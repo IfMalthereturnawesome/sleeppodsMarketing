@@ -53,7 +53,7 @@ export default function TestimonialsCarouselPPG() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <div>
               <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">
-                The sleep first platform
+                The sleep first product
               </div>
             </div>
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">

@@ -272,6 +272,59 @@ export default function Features02() {
                   height="20"
                 >
                   <rect width="256" height="256" fill="none" />
+                  <circle
+                    cx="152"
+                    cy="56"
+                    r="24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                  />
+                  <path
+                    d="M56,109.6s32-25.67,80,7c50.47,34.3,80,20.85,80,20.85"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                  />
+                  <path
+                    d="M110.64,161.16C128.47,165,176,180,176,232"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                  />
+                  <path
+                    d="M133.51,114.9C125.7,141.36,95.88,206.39,32,200"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="24"
+                  />
+                </svg>
+                <h4 className="font-medium text-slate-50">
+                  Accelerator Sensors
+                </h4>
+              </div>
+              <p className="text-sm text-slate-400">
+                Device that measures the vibration, or acceleration of motion.
+              </p>
+            </div>
+            {/* Feature */}
+            <div>
+              <div className="flex items-center space-x-2 mb-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 256 256"
+                  width="20"
+                  height="20"
+                >
+                  <rect width="256" height="256" fill="none" />
                   <line
                     x1="48"
                     y1="40"
@@ -324,10 +377,13 @@ export default function Features02() {
                     strokeWidth="24"
                   />
                 </svg>
-                <h4 className="font-medium text-slate-50">Sound Blocking</h4>
+                <h4 className="font-medium text-slate-50">
+                  Active Noise Cancellation
+                </h4>
               </div>
               <p className="text-sm text-slate-400">
-                Effective reduction or elimination of unwanted noise.
+                Also known as noise cancellation, or active noise reduction, is
+                a method for reducing unwanted sound.
               </p>
             </div>
             {/* Feature */}
@@ -433,80 +489,6 @@ export default function Features02() {
               </div>
               <p className="text-sm text-slate-400">
                 Systematic gathering of sleep information
-              </p>
-            </div>
-            {/* Feature */}
-            <div>
-              <div className="flex items-center space-x-2 mb-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 256 256"
-                  width="20"
-                  height="20"
-                >
-                  <rect width="256" height="256" fill="none" />
-                  <circle
-                    cx="80"
-                    cy="172"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <circle
-                    cx="80"
-                    cy="60"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <circle
-                    cx="176"
-                    cy="172"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <circle
-                    cx="176"
-                    cy="60"
-                    r="28"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <path
-                    d="M32,224a60,60,0,0,1,96,0,60,60,0,0,1,96,0"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                  <path
-                    d="M32,112a60,60,0,0,1,96,0h0a60,60,0,0,1,96,0"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="24"
-                  />
-                </svg>
-                <h4 className="font-medium text-slate-50">Community</h4>
-              </div>
-              <p className="text-sm text-slate-400">
-                Join a community committed to better sleep, share experiences,
-                tips, and successes.
               </p>
             </div>
           </div>

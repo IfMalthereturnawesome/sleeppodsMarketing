@@ -45,7 +45,7 @@ export default function CtaNoApp() {
           <div className="max-w-3xl mx-auto text-center">
             <div>
               <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">
-                The sleep first platform
+                Streamlined for sleep
               </div>
             </div>
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
