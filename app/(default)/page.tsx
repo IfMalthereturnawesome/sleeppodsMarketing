@@ -44,7 +44,7 @@ import posthog from "posthog-js";
 export default function Home() {
   const landingPageVariant = useFeatureFlagVariantKey("landing_page");
   const [content, setContent] = useState(null);
-  posthog.featureFlags.override({ landing_page: "control" });
+  posthog.featureFlags.override({ landing_page: "noapp" });
 
   useEffect(() => {
     switch (landingPageVariant) {
