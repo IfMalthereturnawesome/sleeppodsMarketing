@@ -5,6 +5,10 @@ import Highlighter, { HighlighterItem } from "./highlighter";
 import FeatureImg01 from "@/public/images/pgg-feature-image-01.svg";
 import FeatureImg02 from "@/public/images/feature-image-02NoApp.svg";
 import FeatureImg03 from "@/public/images/feature-image-03NoApp.svg";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import FeatureImg04 from "@/public/images/sleepodsModels/motoki-tonn.jpg";
+import FeatureImg05 from "@/public/images/sleepodsModels/jabari-timothy.jpg";
+import FeatureImg06 from "@/public/images/sleepodsModels/jessica-flavia.jpg";
 
 export default function Features02NoApp() {
   const scrollToTop = () => {

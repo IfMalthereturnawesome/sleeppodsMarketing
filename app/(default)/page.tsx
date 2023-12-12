@@ -40,11 +40,14 @@ import Features04PPG from "@/components/ppg/features-04";
 import TestimonialsPPG from "@/components/ppg/testimonials";
 import CtaPPG from "@/components/ppg/cta";
 import posthog from "posthog-js";
+import Features05NoApp from "@components/noapp/features-05";
+import Features05PPG from "@components/ppg/features-05";
+import Features05 from "@components/eeg/features-05";
 
 export default function Home() {
   const landingPageVariant = useFeatureFlagVariantKey("landing_page");
   const [content, setContent] = useState(null);
-  posthog.featureFlags.override({ landing_page: "noapp" });
+  posthog.featureFlags.override({ landing_page: "control" });
 
   useEffect(() => {
     switch (landingPageVariant) {
@@ -55,8 +58,9 @@ export default function Home() {
             <ClientsPPG />
             <FeaturesPPG />
             <Features02PPG />
-            <Features03PPG />
+            <Features05PPG />
             <TestimonialsCarouselPPG />
+            <Features03PPG />
             <Features04PPG />
             <TestimonialsPPG />
             <CtaPPG />
@@ -70,6 +74,7 @@ export default function Home() {
             <ClientsNoApp />
             <FeaturesNoApp />
             <Features02NoApp />
+            <Features05NoApp />
             <TestimonialsCarouselNoApp />
             <Features04NoApp />
             <TestimonialsNoApp />
@@ -86,8 +91,9 @@ export default function Home() {
             <Clients />
             <Features />
             <Features02 />
-            <Features03 />
+            <Features05 />
             <TestimonialsCarousel />
+            <Features03 />
             <Features04 />
             <Testimonials />
             <Cta />
