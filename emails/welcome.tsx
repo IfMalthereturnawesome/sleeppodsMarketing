@@ -23,29 +23,31 @@ export const WelcomeEmail = () => (
     <Body style={main}>
       <Container style={container}>
         <Img
-          src={`/images/logo-sleeppods.png`}
-          width="100"
-          height="33"
+          src={`https://www.sleeppods.io/images/logo-sleeppods.png`}
+          width="99"
+          height="66"
           alt="SleepPods"
           style={logo}
         />
         <Text style={paragraph}>Hello there,</Text>
         <Text style={paragraph}>
-          Thank you for your interest in SleepPods! We're thrilled to see that
-          you're as excited about revolutionizing sleep as we are. Your request
-          for early access has been received, and you're on the list for when we
-          launch.
+          Thank you for your interest in <strong>SleepPods</strong>! We're
+          thrilled to see that you're as excited about{" "}
+          <strong>revolutionizing sleep</strong> as we are. Your request for{" "}
+          <strong>early access</strong> has been received, and you're on the
+          list for when we launch.
         </Text>
         <Text style={paragraph}>
-          Please note, SleepPods is in active development, and features may
-          change. The final product might be quite different from what's been
-          advertised so far - we're constantly innovating to provide you with
-          the best possible experience.
+          Please note, <strong>SleepPods is in active development</strong>, and
+          features may change. The final product might be quite different from
+          what's been advertised so far - we're{" "}
+          <strong>constantly innovating</strong> to provide you with the best
+          possible experience.
         </Text>
         <Text style={paragraph}>
-          While SleepPods isn't available for purchase yet, we'll keep you
-          updated on our progress and let you know as soon as pre-orders are
-          officially open.
+          While SleepPods isn't available for purchase yet, we'll keep you{" "}
+          <strong> updated on our progress</strong> and let you know as soon as{" "}
+          <strong>pre-orders are officially open</strong>.
         </Text>
         <Section style={btnContainer}>
           <Button
@@ -59,13 +61,13 @@ export const WelcomeEmail = () => (
         </Section>
         <Section style={specialOfferContainer}>
           <Img
-            src={`${baseUrl}/images/image5.jpg`}
+            src={`https://www.sleeppods.io/images/image5.jpg`}
             alt="Sleep Mask"
             style={specialOfferImage}
           />
           <Text style={specialOfferText}>
             While you wait for SleepPods, experience our revolutionary Sleep
-            Mask, designed to enhance your rest today!
+            Mask, designed to for maximum comfort and total blackout!
           </Text>
           <Button
             pX={12}
@@ -105,6 +107,7 @@ const container = {
 
 const logo = {
   margin: "0 auto",
+  backgroundColor: "#000000",
 };
 
 const paragraph = {
