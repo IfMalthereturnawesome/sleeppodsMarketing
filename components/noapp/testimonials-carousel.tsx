@@ -91,8 +91,8 @@ export default function TestimonialsCarouselNoApp() {
                     <div className="flex flex-col p-6 h-full">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="56"
-                        height="56"
+                        width="46"
+                        height="46"
                         fill="#f7f7f7"
                         viewBox="0 0 256 256"
                       >
@@ -131,8 +131,8 @@ export default function TestimonialsCarouselNoApp() {
                     <div className="flex flex-col p-6 h-full">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="56"
-                        height="56"
+                        width="46"
+                        height="46"
                         fill="#f7f7f7"
                         viewBox="0 0 256 256"
                       >
@@ -171,8 +171,8 @@ export default function TestimonialsCarouselNoApp() {
                     <div className="flex flex-col p-6 h-full">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="56"
-                        height="56"
+                        width="46"
+                        height="46"
                         fill="#f7f7f7"
                         viewBox="0 0 256 256"
                       >
@@ -210,8 +210,8 @@ export default function TestimonialsCarouselNoApp() {
                     <div className="flex flex-col p-6 h-full">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="56"
-                        height="56"
+                        width="46"
+                        height="46"
                         fill="#f7f7f7"
                         viewBox="0 0 256 256"
                       >
@@ -250,8 +250,8 @@ export default function TestimonialsCarouselNoApp() {
                     <div className="flex flex-col p-6 h-full">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="56"
-                        height="56"
+                        width="46"
+                        height="46"
                         fill="#f7f7f7"
                         viewBox="0 0 256 256"
                       >
