@@ -12,7 +12,7 @@ export default function AuthLogo() {
             src={Logo}
             width={42}
             height={42}
-            alt="Stellar"
+            alt="Sleeppods"
           />
         </div>
       </Link>

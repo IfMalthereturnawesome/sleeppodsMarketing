@@ -67,8 +67,9 @@ export const WelcomeEmail = () => (
           />
           <Text style={specialOfferText}>
             While you wait for SleepPods, experience Eight Athletics
-            revolutionary Sleep Mask One, designed for maximum comfort and total
-            blackout!
+            revolutionary <strong> Sleep Mask One</strong>, designed for{" "}
+            <strong>maximum comfort</strong> and{" "}
+            <strong> total blackout!</strong>
           </Text>
           <Button
             pX={12}

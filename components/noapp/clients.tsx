@@ -37,7 +37,7 @@ export default function ClientsNoApp() {
   }, []);
 
   return (
-    <section>
+    <section className={"hero"}>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         {/* Particles animation */}
         <div className="absolute inset-0 max-w-6xl mx-auto px-4 sm:px-6">
