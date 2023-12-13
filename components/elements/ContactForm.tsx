@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as Form from "@radix-ui/react-form";
 import * as Checkbox from "@radix-ui/react-checkbox";
 import { CheckIcon } from "@radix-ui/react-icons";
@@ -12,6 +12,22 @@ function EmailSignupForm() {
   const [agreeToTerms, setAgreeToTerms] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
   const router = useRouter();
+
+  useEffect(() => {
+    // Check for 'success-email' parameter in the URL
+    const successEmail = new URLSearchParams(window.location.search).get(
+      "success-email",
+    );
+
+    if (successEmail) {
+      // Fire Google Ads Conversion Event
+      if (window.gtag) {
+        window.gtag("event", "conversion", {
+          send_to: "AW-11433750637/mX40CP3ng_8YEO3ghMwq",
+        });
+      }
+    }
+  }, []);
 
   async function handleOnSubmit(event) {
     event.preventDefault();
