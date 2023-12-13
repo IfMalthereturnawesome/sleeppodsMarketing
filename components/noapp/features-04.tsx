@@ -1,6 +1,6 @@
 export default function Features04NoApp() {
   return (
-    <section className="relative">
+    <section className="relative" id={"why-sleeppods"}>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         {/* Blurred shape */}
         <div
@@ -33,7 +33,7 @@ export default function Features04NoApp() {
           {/* Section header */}
           <div className="max-w-3xl pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              Why should you choose sleeppods?
+              Why should you choose SleepPods?
             </h2>
             <p className="text-lg text-slate-400">
               Each category emphasizes a unique aspect of the SleepPods,

@@ -11,7 +11,7 @@ export default function FeaturesPPG() {
   const [tab, setTab] = useState<number>(1);
 
   return (
-    <section>
+    <section id={"enhance-your-sleep"}>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         {/* Illustration */}
         <div

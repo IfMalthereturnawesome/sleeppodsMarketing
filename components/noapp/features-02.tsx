@@ -15,7 +15,7 @@ export default function Features02NoApp() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <section className="relative">
+    <section className="relative" id={"scientifically-backed-technology"}>
       {/* Particles animation */}
       <div className="absolute left-1/2 -translate-x-1/2 top-0 -z-10 w-80 h-80 -mt-24 -ml-32">
         <Particles
