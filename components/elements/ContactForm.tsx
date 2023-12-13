@@ -13,22 +13,6 @@ function EmailSignupForm() {
   const formRef = useRef<HTMLFormElement>(null);
   const router = useRouter();
 
-  useEffect(() => {
-    // Check for 'success-email' parameter in the URL
-    const successEmail = new URLSearchParams(window.location.search).get(
-      "success-email",
-    );
-
-    if (successEmail) {
-      // Fire Google Ads Conversion Event
-      if (window.gtag) {
-        window.gtag("event", "conversion", {
-          send_to: "AW-11433750637/mX40CP3ng_8YEO3ghMwq",
-        });
-      }
-    }
-  }, []);
-
   async function handleOnSubmit(event) {
     event.preventDefault();
 
@@ -53,7 +37,8 @@ function EmailSignupForm() {
 
       if (response.ok) {
         setState("success");
-        router.push(`/?success-email=${encodeURIComponent(email)}`);
+        // Append the email to the URL as a query parameter
+        router.push(`/thank-you?email=${encodeURIComponent(email)}`);
       } else {
         alert("There was a problem with your submission.");
         setState("idle");
@@ -62,64 +47,6 @@ function EmailSignupForm() {
       alert("Invalid email address.");
       setState("idle");
     }
-  }
-
-  if (state === "success") {
-    // Function to close the modal
-    const closeModal = () => {
-      setState("idle");
-    };
-
-    // Function to handle clicking outside the modal
-    const handleOutsideClick = (event) => {
-      if (event.target.id === "modal-backdrop") {
-        closeModal();
-      }
-    };
-
-    return (
-      <div
-        id="modal-backdrop"
-        className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4"
-        onClick={handleOutsideClick} // Close modal when clicking outside
-      >
-        <div className="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full relative">
-          <button
-            className="absolute top-3 right-3 text-gray-600 hover:text-gray-800"
-            onClick={closeModal} // Close modal when clicking 'X'
-          >
-            <span className="text-2xl">&times;</span> {/* 'X' icon */}
-          </button>
-          <div className="p-6 text-center bg-[#0F1729]">
-            <h1
-              className="text-3xl font-semibold text-slate-100"
-              data-aos="fade-up"
-            >
-              Pre-Order Confirmed!
-            </h1>
-            <p
-              className="text-lg text-slate-200 mt-4"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              Thank you for your interest in SleepPods! We've received your
-              waiting list request. You're one step closer to experiencing
-              revolutionary sleep technology.
-            </p>
-            <p className="text-slate-200 pt-4 text-xs">
-              A confirmation email has been sent to you. If you don’t see it
-              soon, please check your spam folder.
-            </p>
-            <button
-              className="mt-6 py-2 px-4 bg-blue-800 text-white font-bold rounded hover:bg-blue-700 transition duration-300 ease-in-out"
-              onClick={closeModal}
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    );
   }
 
   return (
