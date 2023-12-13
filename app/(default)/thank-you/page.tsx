@@ -21,7 +21,7 @@ const ThankYouPage = () => {
 
   return (
     <Container>
-      <div className="mt-10 md:mt-0 bg-gray-100 flex flex-col items-center justify-center px-4 rounded-2xl">
+      <div className="mt-10 md:mt-5 bg-gray-100 flex flex-col items-center justify-center px-4 rounded-2xl">
         <div className="md:mx-20 text-center text-slate-900 flex flex-col md:gap-10 md:pt-10 my-2">
           <div className="flex flex-col md:gap-4 gap-2">
             <h1 className="text-2xl md:text-6xl font-semibold ">
