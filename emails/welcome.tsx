@@ -23,7 +23,7 @@ export const WelcomeEmail = () => (
     <Body style={main}>
       <Container style={container}>
         <Img
-          src={`https://www.sleeppods.io/images/logo-sleeppods.png`}
+          src={`https://www.sleeppods.io/images/Sleeppodslogo-icon.png`}
           width="99"
           height="66"
           alt="SleepPods"
